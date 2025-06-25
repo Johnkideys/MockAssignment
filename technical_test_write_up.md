@@ -1,7 +1,7 @@
 # MyTomorrows Technical Test
 
-- HASAN JOHN KIDEYS, completed on 25/06/2025
-- Link to Github repo with Task 1 solution: 
+*HASAN JOHN KIDEYS - completed on 25/06/2025*
+GitHub repo (Task 1 dashboards and dbt project): https://github.com/Johnkideys/MockAssignment
 
 ## Task 1: United Healthcare Analysis
 
