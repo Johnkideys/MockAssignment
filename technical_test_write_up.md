@@ -1,7 +1,10 @@
 # MyTomorrows Technical Test
 
-*HASAN JOHN KIDEYS - completed on 25/06/2025*
-GitHub repo (Task 1 dashboards and dbt project): https://github.com/Johnkideys/MockAssignment
+HASAN JOHN KIDEYS - completed on 25/06/2025  
+
+- GitHub repo (Task 1 dbt project): https://github.com/Johnkideys/MockAssignment 
+
+- Task 1 Dashboard link: https://public.tableau.com/views/Main_17507126193880/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ## Task 1: United Healthcare Analysis
 
