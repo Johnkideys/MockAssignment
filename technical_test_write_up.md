@@ -12,13 +12,13 @@ HASAN JOHN KIDEYS - completed on 25/06/2025
 This analysis provides United Healthcare with actionable insights into high volume procedures and insurance coverage gaps of patients, enabling targeted interventions to reduce the uninsured patient populations.
 
 ### Key Findings
-Identifying high volume procedures: Mental Health procedures represent the largest volume with significant uninsured patients, creating opportunities for interventions.
+- Identifying high volume procedures: Mental Health procedures represent the largest volume with significant uninsured patients, creating opportunities for interventions.
 
-Specialised procedures show the highest percentage of uninsured patients.
+- Specialised procedures show the highest percentage of uninsured patients.
 
-Prioritising preventive screening and mental health procedures for coverage expansion initiatives will create the highest impact on patient outcomes.
+- Prioritising preventive screening and mental health procedures for coverage expansion initiatives will create the highest impact on patient outcomes.
 
-There are currently 171 patients who are not insured and 353 patients who were insured for some encounters and uninsured during other encounters. These cohorts have been categorised as "Always uninsured" and "Mixed coverage" respectively. 
+- There are currently 171 patients who are not insured and 353 patients who were insured for some encounters and uninsured during other encounters. These cohorts have been categorised as "Always uninsured" and "Mixed coverage" respectively. 
 
 ### Technical Implementation
 
@@ -30,7 +30,7 @@ For the production environment, migrating the PostgreSQL database to a cloud ser
 Relationships were created for the tables to create the data model. For example, the "id" column in the encounters table has a one to many relationship with the "encounter" column in the procedures table.
 
 ![Dashboard Screenshot](images/relationships_between_tables.png)
-
+Figure 1. Entity Relationship Diagram (ERD) of the PostgreSQL reporting schema
 
 #### Data Transformation Logic
 
@@ -56,6 +56,7 @@ Uninsured Volume in Procedure Groups:
 Procedure Volumes (≥10 Records): 
 
 ![Dashboard Screenshot](images/Tableau_Public_Dashboard_Screenshot.png)
+Figure 2. United Healthcare summary dashboard (Tableau Public screenshot)
 
 To view the dashboard please click the following link:
 [View the dashboard](https://public.tableau.com/shared/SRPTRMGXW?:display_count=n&:origin=viz_share_link)
@@ -116,6 +117,8 @@ The above mechanism would restrict the hospice related data to show to authorise
 ### KPIs for Leadership at the Patient Advocacy Group
 
 ![Dashboard Screenshot](images/kpis_for_leadership.png)
+Figure 3. Key performance indicators (KPIs) for the Patient Advocacy Group
+
 
 
 ## Task 4: Data Pipeline & Governance Proposal
